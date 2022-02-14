@@ -255,9 +255,11 @@ nav > a:hover{
 
 /* Nav */
 
-.nav__logo{
-    margin-top: 10px;
+.nav__logo img{
+    margin-top: 10x;
+    height: 130px;
 }
+
 .nav {
     --padding-container: 0;
     height: 100%;
