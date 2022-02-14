@@ -255,6 +255,9 @@ nav > a:hover{
 
 /* Nav */
 
+.nav__logo{
+    margin-top: 10px;
+}
 .nav {
     --padding-container: 0;
     height: 100%;
@@ -766,8 +769,8 @@ margin-right: 15px;
 
 .footer__txt{
 text-align: justify;
-margin-left: 15px;
-margin-right: 15px;
+margin-left: 9px;
+margin-right: 21px;
 }
 
 .footer__txt .fa-twitter{
