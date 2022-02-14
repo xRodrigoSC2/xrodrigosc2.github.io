@@ -55,7 +55,7 @@ body {
     align-content: center;
 }
 .menu-horizontal > li:hover{
-    background-color: #00cc33;
+    background-color: red;
 }
 .menu-vertical{
     position: absolute;
@@ -136,7 +136,7 @@ nav > a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/inicio.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/img1.jpeg');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -161,7 +161,7 @@ nav > a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/noso.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/nos.jpeg');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -186,7 +186,7 @@ nav > a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/contac.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/men.jpg');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -211,7 +211,7 @@ nav > a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/producto.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/ing.jpg');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -254,11 +254,6 @@ nav > a:hover{
 }
 
 /* Nav */
-
-.nav__logo img{
-    margin-top: 10px;
-    height: 130px;
-}
 
 .nav {
     --padding-container: 0;
@@ -329,7 +324,7 @@ nav > a:hover{
 
 .cta {
     display: inline-block;
-    background-color:  #009900;
+    background-color: #2091F9;
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -430,18 +425,18 @@ nav > a:hover{
 }
 
 .subtitle {
-    color: #211E1E;
+    color: var(--color-title);
     font-size: 2rem;
     margin-bottom: 25px;
 }
 
 .subtitle2 {
-    color: #211E1E;
+    color: var(--color-title);
     font-size: 2rem;
     margin-bottom: 25px;
 }
 .subtitle3 {
-    color: #211E1E;
+    color: var(--color-title);
     font-size: 2rem;
     margin-bottom: 25px;
 }
@@ -523,7 +518,7 @@ nav > a:hover{
 }
 
 .price__element{
-    background-color: #99ff99;
+    background-color: #e5e5f7;
     text-align: center;
     border-radius: 10px;
     width: 330px;
@@ -538,7 +533,7 @@ nav > a:hover{
 .price__element--best{
     width: 370px;
     padding: 60px 40px;
-    background-color: #3399ff;
+    background-color: #FF7143;
     --color-plan: rgb(255 255 255 / 75%);
     --color-price: #fff;
     --bg-cta: #9F3919;
@@ -582,7 +577,7 @@ nav > a:hover{
 /* Testimony */
 
 .testimony{
-    background-color:#EEAD33 ;
+    background-color:#99ccff ;
 }
 
 .testimony__container{
@@ -630,7 +625,7 @@ nav > a:hover{
 }
 
 .testimony__course{
-    background-color: green;
+    background-color: royalblue;
     color: #fff;
     display: inline-block;
     padding: 5px;
@@ -771,8 +766,8 @@ margin-right: 15px;
 
 .footer__txt{
 text-align: justify;
-margin-left: 9px;
-margin-right: 21px;
+margin-left: 15px;
+margin-right: 15px;
 }
 
 .footer__txt .fa-twitter{
